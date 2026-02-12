@@ -25,7 +25,7 @@ confirm whether or not our maxterm and minterm expressions were correct.
 This makes it so that logically the columns and rows are logically next to each other. 
 
 ### Why are the names Sum of Products and Products of Sums?
--- SOPs involve minterms (1's from Truth Table) and POSs involve Maxterms (0's from Truth Table). Respectively, their operational formats are "+(_*_)+" and "*(_+_)*".
+-- SOPs involve minterms (1's from Truth Table) and POSs involve Maxterms (0's from Truth Table). Respectively, their operational formats are `+(_*_)+` and `*(_+_)*`.
 
 ### Open the test.v file – how are we able to check that the signals match using XOR?
 -- In test.v XOR is used to compare two signals. For example, the expected output and what is the actual output. If the two signals match, XOR produces 
