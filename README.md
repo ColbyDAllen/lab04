@@ -22,7 +22,7 @@ confirm whether or not our maxterm and minterm expressions were correct.
 
 ### Why are the groups of 1’s (or 0’s) that we select in the KMap able to go across edges?
 -- KMAPS are arranged so that the values wrap around the edges. The squares on opposite sides of the KMAP are adjacent. 
-This makes it so that logically the columns and rows are logically next to each other. 
+This makes it so that the columns and rows are logically next to each other. 
 
 ### Why are the names Sum of Products and Products of Sums?
 -- SOPs involve minterms (1's from Truth Table) and POSs involve Maxterms (0's from Truth Table). Respectively, their operational formats are `+(_*_)+` and `*(_+_)*`.
